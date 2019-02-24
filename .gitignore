@@ -1,0 +1,56 @@
+# 静态文件
+*.csv
+*.dat
+*.iml
+*.log
+*.tar.gz
+*.out
+*.pid
+*.seed
+*.sublime-*
+*.swo
+*.swp
+*.tgz
+*.xml
+*.bak
+*.BAK
+.DS_Store
+.idea
+# 项目本地配置
+.project
+.strong-pm
+# 文档生成内容
+apidoc/*
+wxapidoc/*
+# 覆盖率报告
+coverage
+# 部署脱敏
+deploy/*
+!deploy/kubernetes-*.yaml
+# npm依赖及测试
+node_modules
+npm-debug.log
+# 配置文件脱敏
+config/*
+!config/default.json
+!config/custom-environment-variables.json
+!config/production.json
+# 其他日志产出
+dump.rdb
+backup
+bin/addr.json
+bin/getAddrFromWechat.js
+bin/*.txt
+bin/log*
+.vscode/*
+# 脚本
+utils/test.js
+scripts/iot-push-manual.js
+!test/routes/utils/1.csv
+package-lock.json.bk
+export.sh
+package-lock.json
+process.json
+wxapidoc/*
+# i18n文件
+assets/locales/*/*.missing.js

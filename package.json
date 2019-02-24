@@ -1,19 +1,17 @@
 {
-  "name": "daily",
+  "name": "clawer",
   "version": "1.0.0",
-  "description": "a clawer for zhihu daily",
+  "description": "a clawer for douban zufang group",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "sleelily",
+  "author": "zf",
   "license": "ISC",
   "dependencies": {
-    "async": "^0.9.0",
-    "cheerio": "^0.19.0",
-    "eventproxy": "^0.3.2",
-    "express": "^4.12.3",
-    "jade": "^1.9.2",
-    "superagent": "^1.1.0"
+    "cheerio": "^1.0.0-rc.2",
+    "config": "^3.0.1",
+    "moment": "^2.24.0",
+    "superagent": "^4.1.0"
   }
 }
